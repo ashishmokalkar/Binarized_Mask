@@ -44,10 +44,14 @@ python binarization.py -h
 ```
 
 # Architecture
+#### Following is the architecture of the system:
 ![](images/flowchart2.jpg)
 
 # Procedure
-Original Image:
+#### Original Image:
+<img src="images/orig.png" width=400>
+
+#### Denoised image
 <img src="images/denoised.png" width=400>
 
 
