@@ -40,15 +40,15 @@ pip3 install requirements.txt
 ### Python
 ##### Within virtual environment:
 ```
-python3 binarization.py -input <path to input file>
+python binarization.py -input <path to input file>
 ```
 #### For example::
 ```
-python3 binarization.py -input images/125356504.jpg
+python binarization.py -input images/125356504.jpg
 ```
 #### Type `-h` for `help`
 ```
-python3 binarization.py -h
+python binarization.py -h
 ```
 # Output 
 #### Following is the output produced by the program:
