@@ -25,22 +25,23 @@ virtualenv venv
 source venv/bin/activate
 ```
 # Setup dependencies
-Install dependent python packages
+Within virtual environment, Install dependent python packages by:
 ```
-pip install requirements.txt
+pip3 install requirements.txt
 ```
 # Run Code
 ### Python
+##### Within virtual environment, run 
 ```
-python binarization.py -input <path to input file>
+python3 binarization.py -input <path to input file>
 ```
 For example, on my system:
 ```
-python binarization.py -input /home/ashish/Pictures/125356504.jpg
+python3 binarization.py -input /home/ashish/Pictures/125356504.jpg
 ```
 Type `-h` for `help`
 ```
-python binarization.py -h
+python3 binarization.py -h
 ```
 # Output 
 #### Following is the output produced by the program:
