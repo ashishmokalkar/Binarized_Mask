@@ -53,5 +53,13 @@ python binarization.py -h
 
 #### Denoised image: 
 Non-local Means Denoising algorithm is used to remove noise in the image.(Reference: [https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_photo/py_non_local_means/py_non_local_means.html](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_photo/py_non_local_means/py_non_local_means.html))
+
 <img src="images/denoised.png" width=400>
 
+#### Smoothening
+Median Blur with kernel size 7 is used to smoothen the image(Reference: [https://docs.opencv.org/2.4/modules/imgproc/doc/filtering.html?highlight=medianblur#medianblur](https://docs.opencv.org/2.4/modules/imgproc/doc/filtering.html?highlight=medianblur#medianblur))
+
+<img src="images/blurred.png" width=400>
+
+#### Binary thresholding
+The image is thresholded using binary thresholding
