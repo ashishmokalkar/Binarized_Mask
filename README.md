@@ -43,8 +43,14 @@ Type `-h` for `help`
 python binarization.py -h
 ```
 
-<img src="images/flowchart2.jpg" width=400>
+# Architecture
+![](images/flowchart2.jpg)
+
+# Procedure
+Original Image:
 <img src="images/denoised.png" width=400>
+
+
 # Architecture
 ![](images/flowchart2.jpg)
 
