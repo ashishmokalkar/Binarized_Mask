@@ -42,3 +42,6 @@ Type `-h` for `help`
 ```
 python binarization.py -h
 ```
+# Architecture
+Following is the architecture of the program:
+![](images/flowchart1.jpg)
