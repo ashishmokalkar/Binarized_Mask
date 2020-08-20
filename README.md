@@ -34,7 +34,7 @@ git clone https://github.com/ashishmokalkar/Binarized_Mask.git
 Within virtual environment, Install dependent python packages by:
 ```
 cd Binarized_Mask/
-pip install requirements.txt
+pip3 install requirements.txt
 ```
 # Run Code
 ### Python
