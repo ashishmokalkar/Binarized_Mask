@@ -14,7 +14,7 @@ sudo apt-get install python3-pip
 ```
 ### Then install virtualenv using pip3
 ```
-sudo pip install virtualenv 
+sudo pip3 install virtualenv 
 ```
 ### Now create a virtual environment
 ```
@@ -34,7 +34,7 @@ git clone https://github.com/ashishmokalkar/Binarized_Mask.git
 Within virtual environment, Install dependent python packages by:
 ```
 cd Binarized_Mask/
-pip3 install requirements.txt
+pip install requirements.txt
 ```
 # Run Code
 ### Python
