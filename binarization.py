@@ -41,7 +41,6 @@ def binarized(image):
 	cv2.resizeWindow('blurred', window_width, window_height)
 	cv2.imshow('blurred',img)
 	cv2.waitKey(0)
-	#cv2.destroyAllWindows()
 
 	# Applying gaussian blur
 	img = cv2.GaussianBlur(img,(7, 7),0)
@@ -72,10 +71,11 @@ def binarized(image):
 	plt.title("Binarized Mask Image")
 
 	plt.show()
+	
 
 if __name__ == '__main__':
-	parser = argparse.ArgumentParser()
-	parser.add_argument('-input', dest='image', action='store', help="pass image to test")
-	args = parser.parse_args()
+	parser = argparse.ArgumentParser()   #Argparse package to parse command line arguements
+	parser.add_argument('-input', dest='image', action='store', help="pass image to test")   # Adding arguement
+	args = parser.parse_args()   #Parse the arguements
 	in_image = args.image
 	binarized(in_image)
