@@ -43,4 +43,4 @@ Type `-h` for `help`
 python binarization.py -h
 ```
 # Architecture
-![](images/flowchart1.jpg)
+![](images/flowchart2.jpg)
