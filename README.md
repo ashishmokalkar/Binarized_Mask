@@ -2,7 +2,7 @@
 
 This code converts the target image into binarized mask. It distinguishes between foreground object and the background.
 
-## Installations
+# Installations
 
 ### Install Python 3 
 ```
@@ -24,16 +24,21 @@ virtualenv venv
 ```
 source venv/bin/activate
 ```
-## Setup dependencies
+# Setup dependencies
 Install dependent python packages
 ```
 pip install requirements.txt
 ```
-## Run Code
+# Run Code
 ### Python
 ```
 python binarization.py -input <path to input file>
 ```
-For example, on my system
+For example, on my system:
 ```
 python binarization.py -input /home/ashish/Pictures/125356504.jpg
+```
+Type `-h` for `help`
+```
+python binarization.py -h
+```
