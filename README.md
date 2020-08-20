@@ -42,6 +42,9 @@ Type `-h` for `help`
 ```
 python binarization.py -h
 ```
+# Output 
+#### Following is the output produced by the program:
+<img src="images/final.png" width=800>
 
 # Architecture
 #### Following is the architecture of the system:
