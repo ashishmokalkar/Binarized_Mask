@@ -42,12 +42,17 @@ Type `-h` for `help`
 ```
 python binarization.py -h
 ```
+
+<img src="images/flowchart2.jpg" width=400>
+<img src="images/denoised.png" width=400>
 # Architecture
 ![](images/flowchart2.jpg)
 
 # Procedure
 ### Read original image
+Original Image:
 ![](images/orig.png)
 
 ### Denoised image
+Non-local Means Denoising algorithm to remove noise in the image:
 ![](images/denoised.png)
