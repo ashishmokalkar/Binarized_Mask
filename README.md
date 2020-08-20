@@ -44,3 +44,10 @@ python binarization.py -h
 ```
 # Architecture
 ![](images/flowchart2.jpg)
+
+# Procedure
+### Read original image
+![](images/orig.png)
+
+### Denoised image
+![](images/denoised.png)
