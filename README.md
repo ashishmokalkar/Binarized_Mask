@@ -1,1 +1,2 @@
-# Binarized_Mask
+# Binarized Mask Generation using OpenCV
+
