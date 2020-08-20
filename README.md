@@ -52,6 +52,6 @@ python binarization.py -h
 <img src="images/orig.png" width=400>
 
 #### Denoised image: 
-#### Non-local Means Denoising algorithm is used to remove noise in the image.(Reference: [https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_photo/py_non_local_means/py_non_local_means.html](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_photo/py_non_local_means/py_non_local_means.html))
+Non-local Means Denoising algorithm is used to remove noise in the image.(Reference: [https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_photo/py_non_local_means/py_non_local_means.html](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_photo/py_non_local_means/py_non_local_means.html))
 <img src="images/denoised.png" width=400>
 
