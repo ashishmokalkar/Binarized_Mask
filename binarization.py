@@ -75,7 +75,7 @@ def binarized(image):
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
-	parser.add_argument('-i', dest='image', action='store', help="pass image to test")
+	parser.add_argument('-input', dest='image', action='store', help="pass image to test")
 	args = parser.parse_args()
 	in_image = args.image
 	binarized(in_image)
