@@ -24,3 +24,8 @@ virtualenv venv
 ```
 source venv/bin/activate
 ```
+# Setup dependencies
+Install dependent python packages
+```
+pip install requirements.txt
+```
