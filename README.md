@@ -31,15 +31,15 @@ pip3 install requirements.txt
 ```
 # Run Code
 ### Python
-##### Within virtual environment, run 
+##### Within virtual environment:
 ```
 python3 binarization.py -input <path to input file>
 ```
-For example, on my system:
+#### For example::
 ```
-python3 binarization.py -input /home/ashish/Pictures/125356504.jpg
+python3 binarization.py -input images/125356504.jpg
 ```
-Type `-h` for `help`
+#### Type `-h` for `help`
 ```
 python3 binarization.py -h
 ```
