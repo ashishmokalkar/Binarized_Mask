@@ -24,9 +24,16 @@ virtualenv venv
 ```
 source venv/bin/activate
 ```
+
+# Clone Repository
+```
+git clone https://github.com/ashishmokalkar/Binarized_Mask.git
+```
+
 # Setup dependencies
 Within virtual environment, Install dependent python packages by:
 ```
+cd Binarized_Mask/
 pip3 install requirements.txt
 ```
 # Run Code
